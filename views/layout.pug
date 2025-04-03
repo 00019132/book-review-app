@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title= title
+    link(rel='stylesheet' href='/styles/style.css')
+  body
+    header
+      nav
+        .container
+          h1 Book Review App
+          ul
+            li
+              a(href='/') Home
+            li
+              a(href='/reviews') Reviews
+            li
+              a(href='/reviews/new') Add Review
+    main
+      .container
+        block content
+    footer
+      .container
+        p This web application was created to fulfill Web Technology module's requirements and does not represent an actual company or service

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h2= title
+  
+  if reviews && reviews.length > 0
+    .reviews-container
+      each review in reviews
+        .review-card
+          h3= review.title
+          .review-info
+            span.author= `by ${review.author}`
+            span.genre= review.genre
+            .rating Rating: #{review.rating}/5
+          p.content= review.content
+          .actions
+            a.btn(href=`/reviews/${review.id}/edit`) Edit
+            form(action=`/reviews/${review.id}?_method=DELETE`, method='POST')
+              button.btn.danger(type='submit') Delete
+  else
+    p No reviews found. Be the first to add a review!
+    
+  .actions
+    a.btn.primary(href='/reviews/new') Add New Review
