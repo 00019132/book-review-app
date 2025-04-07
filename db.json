@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "id": 5,
+      "title": "Thehbwn",
+      "author": "sdvsdvs",
+      "genre": "sdvsdv",
+      "rating": "1",
+      "content": "sdvsdvsdvsdv",
+      "createdAt": "2025-04-08T10:20:22.886Z"
+    },
+    {
+      "id": 6,
+      "title": "saydullayev",
+      "author": "sdvsdvs",
+      "genre": "vsdv",
+      "rating": "1",
+      "content": "sdvsdvdsvs",
+      "createdAt": "2025-04-08T10:20:29.682Z",
+      "updatedAt": "2025-04-08T10:20:39.898Z"
+    }
+  ],
+  "nextId": 7
+}
