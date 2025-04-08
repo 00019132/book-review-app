@@ -19,7 +19,7 @@ express validator used for validation and error handling
 
 # Links
 Github repository link : https://github.com/00019132/book-review-app.git 
-Glitch link :
+Hosted link : https://book-review-app-ht6x.onrender.com 
 
 # Project Structure
 Here is my structure :
